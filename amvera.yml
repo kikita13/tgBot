@@ -6,6 +6,6 @@ meta:
 build:
   skip: 'no'
 run:
-  scriptName: ./src/main.js
+  scriptName: src/main.js
   persistenceMount: /data
   containerPort: 80
