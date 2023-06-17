@@ -11,7 +11,7 @@ bot.command('start', async (ctx) => await ctx.reply(`Hello, ${ctx.message.from.u
 
 bot.on(message('voice'), async (ctx) => {
   try {
-    await ctx.reply(code('asd'))
+    await ctx.reply(code('Waiting for response...'))
     const link = await ctx.telegram.getFileLink(ctx.message.voice.file_id) 
     const userId = String(ctx.message.from.id)
     const oggPath =  await ogg.create(link.href, userId)
