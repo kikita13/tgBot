@@ -3,7 +3,10 @@ meta:
   toolchain:
     name: npm
     version: 18
+build:
+  additionalCommands: npm install
+  scriptArguments: npm install
 run:
-  scriptName: src/main.js
+  scriptName: /src/main.js
   persistenceMount: /data
   containerPort: 80
