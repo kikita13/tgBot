@@ -1,7 +1,0 @@
-@ffmpeg-installer/ffmpeg
-axios
-config
-dotenv
-fluent-ffmpeg
-openai
-telegraf
