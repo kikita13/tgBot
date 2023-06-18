@@ -1,8 +1,8 @@
 import { Telegraf } from 'telegraf';
 import { message } from 'telegraf/filters'
-import { ogg } from './ogg.js';
+import { ogg } from './ogg.cjs';
 import config from 'config'
-import { openai } from './openai.js';
+import { openai } from './openai.cjs';
 import { code } from 'telegraf/format';
 // const bot = new Telegraf(process.env.TOKEN)
 const bot = new Telegraf(config.get('TOKEN'))
